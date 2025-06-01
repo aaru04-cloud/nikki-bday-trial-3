@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Journey Together</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="bg-music" loop autoplay>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/27/audio_1b5e8d7b4b.mp3?filename=happy-birthday-10513.mp3" type="audio/mpeg" />
+    <!-- Free birthday tune from Pixabay -->
+  </audio>
+
+  <div class="container">
+    <!-- Slide 1 -->
+    <div class="slide active" id="slide1">
+      <div class="gift-container">
+        <h1 class="typewriter">Happy Birthday, My Love! 🎉</h1>
+        <button id="gift-btn">🎁 Click here for the gift</button>
+        <div id="gift-popup" class="hidden">
+          <div class="party-poppers">🎉🎉🎉</div>
+          <img id="gift-photo" src="https://via.placeholder.com/250x250.png?text=Your+Photo" alt="Your Gift Photo" />
+          <button id="close-gift">Close</button>
+        </div>
+      </div>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" id="slide2">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+1+Background');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Our 1st month together! So special 💖"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" id="slide3">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+2+Background');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 2: Growing closer every day 💕"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide" id="slide4">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+3+Background');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 3: So many memories made 🌸"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide" id="slide5">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+4+Fights');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 4: Our fights, but still together ❤️‍🩹"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide" id="slide6">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+5+Healing');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 5: We healed and grew stronger 💪"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide" id="slide7">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+6+ILoveYou');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 6: I love you, for the first time 💘"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="slide" id="slide8">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Month+7+Birthday');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="Month 7: Your birthday & our journey 🎂"></h1>
+      <button onclick="nextSlide()" class="next-btn">Next</button>
+      <div class="sparkles"></div>
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="slide" id="slide9">
+      <div class="background-blur" style="background-image: url('https://via.placeholder.com/800x600?text=Sweet+Message');"></div>
+      <div class="overlay-pink-gradient"></div>
+      <div class="floating-hearts"></div>
+      <h1 class="typewriter" data-text="This journey has been magical, and I can’t wait for forever with you."></h1>
+      <div class="heart-thankyou">❤️ Thank you! ❤️</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
